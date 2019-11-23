@@ -1,3 +1,5 @@
+# Exercise 1 from Zed Shaw's Learn Python 3 The Hard Way
+
 print("Hello World!")
 print("")
 print("Hello Again")
