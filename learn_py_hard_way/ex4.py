@@ -1,4 +1,5 @@
 cars = 100
+# if set to 4 without decimal, carpool_capacity will be 120 instead of 120.0
 space_in_a_car = 4.0
 drivers = 30
 passengers = 90
