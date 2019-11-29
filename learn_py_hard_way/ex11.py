@@ -10,3 +10,7 @@ print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 ###
 
 # input() takes in arguments from users
+
+print("What is your favorite genre of music?", end=' ')
+genre = input()
+print(f"My favorite genre of music is {genre}")
