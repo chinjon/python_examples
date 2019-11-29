@@ -12,3 +12,17 @@ In `javascript` they are lower case, `true`, `false` (??)
 ### Syntax
 
 In `javascript`, `semicolons` are optional syntax items that signal to developers that it is the end of a statement. This is total optional due to [automatic semicolon injection](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
+
+### Modules
+
+In `javascript` or with `node`, developers can take use of native libraries or modules.
+
+```js
+const fs = require('fs')
+```
+
+In `python`, developers can also take use of native libraries or modules.
+
+```py
+from sys import argv
+```
