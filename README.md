@@ -1,6 +1,6 @@
 # Python Examples
 
-Snaking my way into `Python`.
+Repo to document learnings of `Python` as a `JavaScript` developer.
 
 Lessons and exercises will be working with `Python 3`.
 
