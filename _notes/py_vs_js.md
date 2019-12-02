@@ -16,6 +16,10 @@ In `javascript`, `semicolons` are optional syntax items that signal to developer
 
 In `python`, have not encountered a `semicolon` equivalent, yet.
 
+To declare a variable in `javascript`, keywords such as `var`, `let`, or `const` must be used for assignment.
+
+In `python`, to declare a variable a name is used without any keywords.
+
 ### Modules
 
 In `javascript` or with `node`, developers can take use of native libraries or modules.
