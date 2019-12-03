@@ -10,6 +10,8 @@ In `python` `True` and `False` are formatted with capitol letters.
 
 In `javascript` they are lower case, `true`, `false` (??)
 
+***
+
 ### Syntax
 
 In `javascript`, `semicolons` are optional syntax items that signal to developers that it is the end of a statement. This is total optional due to [automatic semicolon injection](https://flaviocopes.com/javascript-automatic-semicolon-insertion/).
@@ -19,6 +21,26 @@ In `python`, have not encountered a `semicolon` equivalent, yet.
 To declare a variable in `javascript`, keywords such as `var`, `let`, or `const` must be used for assignment.
 
 In `python`, to declare a variable a name is used without any keywords.
+
+#### Indentation
+
+In `javascript` spacing and indentation is not strict and will not prohibit code from executing.
+
+```js
+function exampleJavaScriptFunction() {
+console.log("This will run.")
+}
+```
+
+```py
+def examplePythonFunction():
+  print("This will run.")
+
+def exampleBrokenPythonFunction():
+print("This will not run.")
+```
+
+***
 
 ### Modules
 
@@ -33,6 +55,8 @@ In `python`, developers can also take use of native libraries or modules.
 ```py
 from sys import argv
 ```
+
+***
 
 ### Functions
 
