@@ -38,4 +38,15 @@ from sys import argv
 
 In `javascript` keyword reserved for declaring a function is `function`. Though there are a few ways to "declare" a function.
 
+```js
+function exampleJavaScriptFunction() {
+  // do something
+}
+```
+
 In `python` the `def` keyword is used to declare a function.
+
+```py
+def examplePythonFunction():
+  # do something here
+```
