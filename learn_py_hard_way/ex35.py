@@ -37,7 +37,7 @@ def bear_room():
       gold_room()
     else:
       print("I got no idea what that means.")
-	  
+
 def cthulhu_room():
   print("Here you see the great evil Cthulu.")
   print("He, it, whatever stares at you and you go insane.")
