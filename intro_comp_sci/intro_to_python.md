@@ -1,5 +1,7 @@
 # Intro To Python
 
+## Knowledge
+
 - computers know what you tell them
 - **declarative knowledge**
   - is the statements of fact
@@ -16,3 +18,6 @@
 - an algorithm is a conceptual idea
 - a program is a concrete instantiation of an algorithm
 - A computational mode of thinking means that everything can be viewed as a math problem involving numbers and formulas.
+
+## Machines
+
