@@ -1,5 +1,7 @@
 class Animal(object):
-  pass
+  
+  def __init__(self, name):
+    self.name = name
   
 class Dog(Animal):
   
@@ -24,13 +26,19 @@ class Employee(Person):
     self.salary = salary
     
 class Fish(object):
-  pass
+  
+  def __init__(self, name):
+    self.name = name
   
 class Salmon(Fish):
-  pass
+  
+  def __init__(self, name):
+    self.name = name
 
 class Halibut(Fish):
-  pass
+  
+  def __init__(self, name):
+    self.name = name
   
 rover = Dog("Rover")
 
@@ -44,12 +52,14 @@ frank = Employee("Frank", 120000)
 
 frank.pet = rover
 
-flipper = Fish()
+flipper = Fish("Flipper")
 
-crouse = Salmon()
+crouse = Salmon("Crouse")
 
-harry = Halibut()
+harry = Halibut("Harry")
 
 print(frank.name)
 
 print(satan.name)
+
+print(flipper.name)
