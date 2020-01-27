@@ -197,3 +197,59 @@
 
 ## Operators and Branching
 
+* ways of testing
+* Examples
+  * i > j
+  * i >= j
+  * i < j
+  * i <= j
+  * i == j
+  * i != j
+* logical operators on bools
+  * a and b are any variable names
+    * not a:
+      * True if a is False
+      * False if a is True
+    * a and b:
+      * True if both are True
+    * a or b:
+      * True if either or both are True
+* branching programs
+  * the simplest branching statement is a conditional
+  * a test
+    * expression that evalues to True or False
+  * a block of code to execute if the test is True
+  * an optional block of code to execute if the test is False
+* indentation
+  * matters in Python
+  * how you denote blocks of code
+* branching programs allw us to make choices and do different things
+* each statement gets executed once
+* maximum time to run the program depends only on the length of the program
+* these programs run in constant time
+
+***
+
+## Bindings
+
+* names used to associate with values
+* names give descriptions to values
+* kwywords can not be used to naem variables
+* compute the right hand side => value
+  * store it (aka bind it) in the left hand side => variable
+* left hand side will be replaced with new value
+* `=` is called assignment
+
+***
+
+## Strings
+
+* a sequence of special characters, spaces, digits
+* enclose inj quotation marks or single quotes
+  * `hi = "hello there"`
+* concatenate strings
+  * `name = Joe`
+  * `greet = hi + name
+* operations on strings
+  * `'ab' + 'cd'` => concatenation
+  * 
