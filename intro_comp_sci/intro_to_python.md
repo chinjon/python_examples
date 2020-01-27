@@ -1,4 +1,4 @@
-# Intro To Python
+# Python Basics
 
 ## Knowledge
 
@@ -90,6 +90,7 @@
   * english: words
   * programming language: numbers, strings, simple operators
 * Example of syntax:
+  * determines whether a string is legal
   * English: 
     * "cat dog boy" => not syntactically valid
     * "cat hugs boy" => syntactically valid
@@ -109,7 +110,8 @@
     * `3+"hi"` => static semantic error
       * semantically does not make sense
       * sytantically valid
-* semantics is the meaning assiciated with a syntatically correct stirng of symbols with not static semantic errors
+* Example of semantics:
+  * the meaning assiciated with a syntatically correct stirng of symbols with not static semantic errors
   * English: semantic sentences can have mulitiple meanings
   * programming languages: have only one meaning but may not be what programmer intended
 * Where Things Go Wrong
@@ -123,3 +125,75 @@
     * program crashes
     * recursion
     * program gives unexpected answer
+
+***
+
+## Types
+
+* program
+  * a sequence of definitions and commands 
+    * definitions 
+      * are evaluated
+      * are ways of either assiging names to values 
+      * are ways of creating procedures that will be treated as primitives
+* commands
+  * commands are executed by Python interpreter in a shell
+  * are simpler expressions that can execute directly within Python
+  * shell
+    * a window into the interpretor
+  * file
+    * stores commands
+    * gets read by shell
+* Objects
+  * programs manipulate data objects
+  * objects have a **type** that defines the kinds of things programs can do to them
+    * types tell programs whether they can act on it or not
+  * objects are:
+    * scalar - can not be subdivided
+    * non-scalar - have internal structures that can be addressed
+* Scalar Objects
+  * int - represent integers
+    * ex: 5
+  * float - represent real numbers 
+    * ex: 4.28
+  * bool - represent Boolean values
+    * ex: True or False
+  * NoneType - special and has one value
+    * ex: None
+  * `type()`
+    * method that can see type of object
+* Type Conversions (Cast)
+  * can covert object of type to another
+    * `float(3)` converts integer `3` to float `3.0`
+    * `int(3.9)` converts float `3.9` to integer `3`
+* Expressions
+  * combine objects and operators to form expressions
+  * an expression has a value
+    * this is a type
+  * syntax for a simple expression `<object> <operator> <object>`
+
+***
+
+## Variables
+
+* abstraction: ways of giving names to things 
+* equal sign `=` is an assignment of a value to a variable name
+* value stored in computer memory
+  * stored in a `name table` which maps association of variable names to values
+* an assignment binds name to value
+* retrieve value associated with name or variable by invoking the name
+* names to values allow for reuse of values
+  * gives representation with name
+* easier to change code later
+  * EX:
+    * `pi = 3.14159`
+    * `radius = 2.2`
+    * `area = pi * (radius ** 2)`
+* changing bindings
+  * can re-bind variable names using new assignment statements
+  * a previous value may still be stored in memory but lost the handle for it
+
+***
+
+## Operators and Branching
+
