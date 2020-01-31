@@ -252,4 +252,35 @@
   * `greet = hi + name
 * operations on strings
   * `'ab' + 'cd'` => concatenation
-  * 
+
+***
+
+## Input/Output
+
+* `print` - method used to display data in console
+* `input` - takes a single argument
+  * will evaluate anything inside statement
+  * can store into a variable
+
+***
+
+## Control Flow
+
+
+
+***
+
+## Guess and Check
+
+* systematic method of guessing the right answer
+  * you are able to guess a value for solution
+  * you are able to check if the solution is correct
+  * keep guessing until find solution or guess all values
+  * the process is exhaustive enumeration 
+    * exhuast all possible solutions
+* done in an iterative manner
+* Loop characteristics:
+  * needs a loop variable
+  * initialized outside loop
+  * changes within loop
+  * test for termination depends on variable
