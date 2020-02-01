@@ -234,7 +234,15 @@
 
 * names used to associate with values
 * names give descriptions to values
-* kwywords can not be used to naem variables
+  * can be:
+    * descriptive
+    * meaningful
+    * helps you read cod
+* values
+  * can be:
+    * infomration stored
+    * can be updated
+* keywords can not be used to naem variables
 * compute the right hand side => value
   * store it (aka bind it) in the left hand side => variable
 * left hand side will be replaced with new value
