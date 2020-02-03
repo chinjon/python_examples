@@ -2,29 +2,17 @@ biggest = ''
 alpha = ''
 s = 'pjxlkqnzpuxouuqgftfnq' # pux
 # s = 'camuzfpytcrbod'
+count = 0
+maxcount = 0
+result = 0
 
-for x, letter in enumerate(s):
-  #print('iterate', letter)
-  if alpha == '':
-    alpha += letter
-  elif letter >= s[x-1]:
-    print(letter, s[x-1])
-    if x != len(s)-1:
-      if letter >= s[x+1]:
-        print(letter, s[x+1])
-        alpha += letter
-        if len(alpha) > len(biggest):
-          biggest = alpha
-          alpha = '' 
-      else:
-        alpha += letter  
+for char in range(len(s) - 1):
+    if (s[char] <= s[char + 1]):
+        count += 1
+        if count > maxcount:
+            maxcount = count
+            result = char + 1
     else:
-      if len(alpha) > len(biggest):
-        biggest = alpha
-        alpha = ''
-  else: 
-    if len(alpha) > len(biggest):
-      biggest = alpha
-      alpha = ''      
-      
-print('Longest substring in alphabetical order is: ' + str(biggest))
+        count = 0
+startposition = result - maxcount
+print('Longest substring in alphabetical order is:', s[startposition:result + 1])
