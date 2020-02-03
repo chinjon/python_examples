@@ -1,23 +1,30 @@
-testString = 'azcbobobegghakl'
-list = []
+biggest = ''
 alpha = ''
+s = 'pjxlkqnzpuxouuqgftfnq' # pux
+# s = 'camuzfpytcrbod'
 
-for x, letter in enumerate(testString):
-  if x+1 < len(testString):
-    if letter <= testString[x+1]:
-      print(letter)
-      alpha += letter
-      if x != 0 and letter >= testString[x-1]:
-        print(letter)
+for x, letter in enumerate(s):
+  #print('iterate', letter)
+  if alpha == '':
+    alpha += letter
+  elif letter >= s[x-1]:
+    print(letter, s[x-1])
+    if x != len(s)-1:
+      if letter >= s[x+1]:
+        print(letter, s[x+1])
         alpha += letter
-    elif letter >= testString[x+1]:
-      list.append(alpha)
-      alpha = ''
-  else:
-    if letter >= testString[x-1]:
-      print(letter)
-
-print list
-# enumerate through each string index
-# per string
-  # if current string is greater than previous but less than next
+        if len(alpha) > len(biggest):
+          biggest = alpha
+          alpha = '' 
+      else:
+        alpha += letter  
+    else:
+      if len(alpha) > len(biggest):
+        biggest = alpha
+        alpha = ''
+  else: 
+    if len(alpha) > len(biggest):
+      biggest = alpha
+      alpha = ''      
+      
+print('Longest substring in alphabetical order is: ' + str(biggest))
