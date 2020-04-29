@@ -55,6 +55,14 @@ _Data type_ is a category for values, and every value belongs to exactly one dat
 * the `print()` function displays the string value inside its parentheses on the screen
 
 ```
-print('Hello World')
+print('Hello World')  # 'Hello World'
 ```
 
+### `input()`
+
+* the `input()` function waits for the user to type some text on the keyboard and press `ENTER`
+* the function call evaluates to a string equal to user's text
+
+### `len()`
+
+* `len()` can be passed a string value and evaluates to the integer value of the number of characters in the string
